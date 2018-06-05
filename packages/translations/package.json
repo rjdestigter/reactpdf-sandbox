@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "fc-translations",
+  "version": "0.4.0",
+  "description":
+    "Components, Higher Order Components, Utilities related to translations",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/granduke/farmcommand/"
+  },
+  "keywords": ["farmersedge", "intl", "translations"],
+  "author": "FarmersEdge <info@farmersedge.ca>",
+  "license": "ISC"
+}

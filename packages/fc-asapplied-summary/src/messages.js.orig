@@ -1,0 +1,9 @@
+import { defineMessages } from 'react-intl'
+
+export default defineMessages({
+  noData: {
+    id: 'fc-asapplied-summary.noData',
+    defaultMessage: 'No data available for the selected farm and season',
+    description: 'No data available for the selected farm and season',
+  },
+})

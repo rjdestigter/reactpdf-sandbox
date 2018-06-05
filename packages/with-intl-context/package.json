@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "fc-with-intl-context",
+  "version": "0.4.0",
+  "description":
+    "Higher Order Component for passing 'intl' context to recharts components.",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/granduke/farmcommand/"
+  },
+  "keywords": ["farmersedge", "react-intl", "react", "context"],
+  "author": "FarmersEdge <info@farmersedge.ca>",
+  "license": "ISC"
+}

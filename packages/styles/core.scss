@@ -1,0 +1,71 @@
+:global {
+  @import 'base';
+  @import 'vendor/normalize';
+  // Some best-practice CSS that's useful for most apps
+  // Just remove them if they're not what you want
+  html {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Roboto, sans-serif, Arial;
+    font-size: 14px;
+  }
+
+  .page-container,
+  .view-container {
+    height: 100%;
+  }
+
+  .leaflet-image-layer {
+    pointer-events: none;
+  }
+
+  .refreshSpinner img {
+    animation-name: refreshSpinner;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+  }
+
+  /*For card loading effect*/
+  .animated-background {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+    position: relative;
+  }
+
+  .loading-strip {
+    height: 15px;
+    padding-top: 10px;
+  }
+
+  .background-space {
+    background: #fff;
+    height: 17px;
+    padding-top: 10px;
+  }
+
+  .slider-decorator-2 {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    top: 86%;
+    transform: translateX(-50%);
+  }
+
+  .slider-list {
+    width: 50% !important;
+  }
+}
