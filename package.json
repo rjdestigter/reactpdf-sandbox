@@ -2,7 +2,7 @@
   "name": "workspace",
   "version": "1.0.0",
   "description": "",
-  "main": "test.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "tsc"
   },

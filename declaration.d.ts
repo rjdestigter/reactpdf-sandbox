@@ -9,7 +9,14 @@ declare module "@react-pdf/core" {
   export const Image: any;
 }
 
-declare module "@react-pdf/node" {
-  export const ReactPDF: any;
-  export default ReactPDF;
+declare module '@react-pdf/node' {
+  const _default: {
+    render: (component: JSX.Element, location: string) => void
+  }
+  export default _default
+}
+
+declare module 'Value' {
+  const v: Function
+  export default v
 }
