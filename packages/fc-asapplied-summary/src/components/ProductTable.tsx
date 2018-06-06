@@ -59,7 +59,7 @@ class ProductTable extends React.Component<TableProps> {
 
   renderTitleRow() {
     const { product, area, coverageArea, totalApplied } = this.props.translations
-
+    
     return (
       <View style={{ ...styles.titleContainer, minWidth: 300, flex: '0 0 auto' }}>
         <View style={{ ...styles.productTitleItem, flex: '0 0 25%' }}>

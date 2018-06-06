@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
   },
   footer: {
     fontSize: 12,
-    textAlign: "center",
+    // textAlign: "center",
     marginTop: 25,
     marginHorizontal: 30,
     paddingVertical: 10,

@@ -31,7 +31,7 @@ export const styleSheet = StyleSheet.create({
 
   titleDiv: {
     flex: '1 1 50%',
-    textAlign: 'left',
+    float: 'left',
     fontFamily: 'Roboto Mono',
     color: 'white',
     fontSize: 24,
@@ -40,7 +40,7 @@ export const styleSheet = StyleSheet.create({
 
   reportPeriodDiv: {
     flex: '1 1 50%',
-    textAlign: 'right',
+    float: 'right',
     color: 'white',
   },
 
@@ -95,12 +95,13 @@ export const styleSheet = StyleSheet.create({
   titleItem: {
     flex: '1 1 0',
     padding: 5,
-    textAlign: 'right',
+    fontSize: 10,
+    float: 'right',
   },
 
   rowItem: {
     flex: '1 1 0',
-    textAlign: 'right',
+    float: 'right',
     paddingTop: '5px',
     paddingBottom: 5,
     paddingLeft: 15,
@@ -117,7 +118,7 @@ export const styleSheet = StyleSheet.create({
     paddingLeft: 15,
     paddingRight: 5,
     borderRight: 'thin solid white',
-    textAlign: 'right',
+    float: 'right',
     fontFamily: 'Roboto Mono',
     fontWeight: 500,
   },
@@ -125,7 +126,8 @@ export const styleSheet = StyleSheet.create({
   productTitleItem: {
     flex: '1 1 0',
     padding: 5,
-    textAlign: 'left',
+    fontSize: 10,
+    float: 'left',
   },
 
   productRowItem: {
@@ -136,7 +138,7 @@ export const styleSheet = StyleSheet.create({
     paddingRight: 6,
     borderRight: 'thin solid white',
     fontSize: 14,
-    textAlign: 'left',
+    float: 'left',
     fontFamily: 'Roboto',
   },
 
@@ -148,7 +150,7 @@ export const styleSheet = StyleSheet.create({
     paddingRight: 5,
     borderRight: 'thin solid white',
     fontWeight: 500,
-    textAlign: 'left',
+    float: 'left',
     fontFamily: 'Roboto',
   }
 })

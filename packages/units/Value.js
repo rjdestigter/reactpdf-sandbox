@@ -27,6 +27,7 @@ class Value extends React.Component {
     const { value: raw, from, to, lbsPerBu = 1, toFixed = 2, style = {} } = this.props
 
     let value = Number(`${raw}`.replace(/[^0-9.-]/g, ''))
+    
     try {
       const result = convert({ from, to, value, lbsPerBu })
       if (!isNaN(result)) {
