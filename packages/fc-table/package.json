@@ -1,0 +1,16 @@
+{
+  "name": "fc-table",
+  "version": "1.7.0",
+  "description": "Components for rendering tables",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/granduke/farmcommand/"
+  },
+  "keywords": ["farmcommand", "datatable", "table"],
+  "author": "FarmersEdge <info@farmersedge.ca>",
+  "license": "ISC"
+}
